@@ -607,3 +607,11 @@ body {
   color: var(--text-secondary) !important;
   font-size: 12px !important;
 }
+
+/* ─── Gradient Text Utility ─── */
+.gradient-text {
+  background: linear-gradient(135deg, #7C5CFC 0%, #A78BFA 40%, #60A5FA 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
